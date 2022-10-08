@@ -4,10 +4,13 @@
 }
 
 .maxWidthWrapper {
+  position: relative;
+  z-index: 2;
 }
 
 .header {
   padding-bottom: 64px;
+  width: 65%;
 }
 
 .title {
@@ -23,8 +26,15 @@
   margin: 0;
 }
 
-.characterWrapper {
+.characterWrapper svg {
+  height: 80%;
+  min-height: 500px;
+  width: 34%;
+  position: fixed;
+  bottom: 5px;
+  right: 100px;
 }
 
 .controlColumn {
+  width: 50%;
 }
